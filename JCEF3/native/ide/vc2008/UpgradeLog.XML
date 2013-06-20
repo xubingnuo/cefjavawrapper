@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CefWrapper">
+</Property><Property Name="Fichier solution" Value="K:\javachromiumembedded\native\ide\vc2008\CefWrapper.sln">
+</Property><Property Name="Date" Value="samedi 8 juin 2013">
+</Property><Property Name="Time" Value="23:02">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CefWrapper.sln" Description="Fichier correctement sauvegardé en tant que K:\javachromiumembedded\native\ide\vc2008\CefWrapper.sln.old">
+</Event><Event ErrorLevel="0" Project="CefWrapper" Source="CefWrapper.vcproj" Description="Converting project file 'K:\javachromiumembedded\native\ide\vc2008\CefWrapper.vcproj'.">
+</Event><Event ErrorLevel="1" Project="CefWrapper" Source="CefWrapper.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="CefWrapper" Source="CefWrapper.vcproj" Description="MSB8012: $(TargetPath) ('K:\javachromiumembedded\native\ide\vc2008\..\..\..\java\lib\native\win32\CefWrapper.dll') does not match the Linker's OutputFile property value '..\..\..\java\lib\native\win32\CefWrapper.dll' ('K:\javachromiumembedded\java\lib\native\win32\CefWrapper.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="CefWrapper" Source="CefWrapper.vcproj" Description="MSB8012: $(TargetPath) ('K:\javachromiumembedded\native\ide\vc2008\..\..\..\java\lib\native\win32\CefWrapper.dll') does not match the Linker's OutputFile property value '..\..\..\java\lib\native\win32\CefWrapper.dll' ('K:\javachromiumembedded\java\lib\native\win32\CefWrapper.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="CefWrapper" Source="CefWrapper.vcproj" Description="Done converting to new project file 'K:\javachromiumembedded\native\ide\vc2008\CefWrapper.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="CefWrapper" Source="CefWrapper.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CefWrapper.sln" Description="Solution correctement convertie">
+</Event><Event ErrorLevel="3" Project="" Source="CefWrapper.sln" Description="Converted">
+</Event></UpgradeLog>
