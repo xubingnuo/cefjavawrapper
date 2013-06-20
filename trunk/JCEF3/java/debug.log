@@ -1,0 +1,1054 @@
+[0617/105334:FATAL:url_request_context.cc(121)] Check failed: false. Leaked 12 URLRequest(s). First URL: http://94.23.255.19:8085/poker/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=E57616AA9FFBB155458DC9CAD0D743A9?ln=primefaces.
+Backtrace:
+	cef_v8value_create_bool [0x3F24F511+699021]
+	cef_v8value_create_bool [0x3F23B94F+618187]
+	cef_time_delta [0x40731399+20722937]
+	cef_time_delta [0x40730C4F+20721071]
+	cef_time_delta [0x3F3D2B11+412785]
+	cef_time_delta [0x3F3D2AC6+412710]
+	cef_string_multimap_free [0x3F35973E+171838]
+	cef_v8value_create_bool [0x3F2A0067+1029603]
+	cef_v8value_create_bool [0x3F29FFF8+1029492]
+	cef_v8value_create_bool [0x3F29FEF5+1029233]
+	cef_v8value_create_bool [0x3F27068F+834571]
+	cef_v8value_create_bool [0x3F2964DD+989785]
+	cef_v8value_create_bool [0x3F296854+990672]
+	cef_v8value_create_bool [0x3F29739D+993561]
+	cef_v8value_create_bool [0x3F2B00C2+1095230]
+	cef_v8value_create_bool [0x3F2AE482+1087998]
+	cef_v8value_create_bool [0x3F2AE73C+1088696]
+	cef_v8value_create_bool [0x3F296096+988690]
+	cef_v8value_create_bool [0x3F295E6B+988135]
+	cef_v8value_create_bool [0x3F2B89D9+1130325]
+	cef_v8value_create_bool [0x3F29566B+986087]
+	cef_time_delta [0x40644D76+19754710]
+	cef_time_delta [0x40644FA5+19755269]
+	cef_v8value_create_bool [0x3F2515EF+707435]
+	BaseThreadInitThunk [0x75B63677+18]
+	RtlInitializeExceptionChain [0x77C49F02+99]
+	RtlInitializeExceptionChain [0x77C49ED5+54]
+
+[0617/111223:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/111310:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/111310:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/111414:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/111937:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/112124:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/112152:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/112304:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/113039:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/123849:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/124335:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/124425:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125010:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125010:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125221:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125221:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125510:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125651:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125651:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125651:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125703:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125736:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125739:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125739:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125739:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125758:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/125903:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/130213:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/130218:FATAL:v8_impl.cc(918)] Check failed: false. context not valid
+Backtrace:
+	cef_v8value_create_bool [0x3F22F511+699021]
+	cef_v8value_create_bool [0x3F21B94F+618187]
+	cef_v8value_create_bool [0x3F2F692C+1515176]
+	cef_v8value_create_bool [0x3F1D3246+321474]
+	CefV8Value::CreateObject [0x4856F4B2+50] (k:\cef_binary_1.1364.1123_windows\libcef_dll\ctocpp\v8value_ctocpp.cc:120)
+	InitBindingTest [0x485066D1+49] (k:\cef_binary_1.1364.1123_windows\cefclient\binding_test.cpp:137)
+	ClientHandler::OnContextCreated [0x4853CB13+707] (k:\ecf1_o\native\src\client_handler.cpp:365)
+	v8context_handler_on_context_created [0x4858BCAC+252] (k:\cef_binary_1.1364.1123_windows\libcef_dll\cpptoc\v8context_handler_cpptoc.cc:48)
+	cef_v8value_create_bool [0x3F1A09A8+114468]
+	cef_time_delta [0x3F38AD49+249513]
+	cef_time_delta [0x40EF1353+28980403]
+	cef_time_delta [0x3FACAA91+7850993]
+	cef_time_delta [0x3FA9A67C+7653340]
+	cef_time_delta [0x3FA9A219+7652217]
+	cef_time_delta [0x3FA9C689+7661545]
+	cef_time_delta [0x3FAAB822+7723394]
+	cef_time_delta [0x3FB3E127+8323719]
+	cef_time_delta [0x3FCFB317+10146935]
+	cef_time_delta [0x40E93076+28594646]
+	cef_time_delta [0x40EF4845+28993957]
+	cef_time_delta [0x3FCFB24A+10146730]
+	cef_time_delta [0x3FCFB6FD+10147933]
+	cef_time_delta [0x3FFB913A+13021850]
+	cef_time_delta [0x3FFDA8DD+13158973]
+	cef_time_delta [0x3FF865F3+12814163]
+	cef_time_delta [0x3FF8635C+12813500]
+	cef_time_delta [0x3FFBBE32+13033362]
+	cef_time_delta [0x41ABFF81+41361633]
+	cef_time_delta [0x4101D31F+30209151]
+	cef_time_delta [0x3F361A06+80742]
+	cef_time_delta [0x3F368E50+110512]
+	cef_time_delta [0x3F368AF7+109655]
+	cef_time_delta [0x3F3686DF+108607]
+	cef_v8value_create_bool [0x3F25068F+834571]
+	cef_v8value_create_bool [0x3F2764DD+989785]
+	cef_v8value_create_bool [0x3F276854+990672]
+	cef_v8value_create_bool [0x3F27739D+993561]
+	cef_v8value_create_bool [0x3F28EFD4+1090896]
+	cef_v8value_create_bool [0x3F28E482+1087998]
+	cef_v8value_create_bool [0x3F28E73C+1088696]
+	cef_v8value_create_bool [0x3F276096+988690]
+	cef_v8value_create_bool [0x3F275E6B+988135]
+	cef_v8value_create_bool [0x3F2989D9+1130325]
+	cef_v8value_create_bool [0x3F27566B+986087]
+	cef_time_delta [0x40624D76+19754710]
+	cef_time_delta [0x40624FA5+19755269]
+	cef_v8value_create_bool [0x3F2315EF+707435]
+	BaseThreadInitThunk [0x75B63677+18]
+	RtlInitializeExceptionChain [0x77C49F02+99]
+	RtlInitializeExceptionChain [0x77C49ED5+54]
+
+[0617/130350:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/130350:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/130350:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/130556:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/130556:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/131528:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/131528:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/131747:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/131747:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/131747:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/131749:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/131920:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/132226:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/132228:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/132228:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/132228:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/132528:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/132659:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/133307:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/133843:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/133845:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/133845:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/133845:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/134009:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/134400:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/134639:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/134639:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/134642:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/134642:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/135647:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/135649:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/135649:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/135649:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/140258:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/140300:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/140300:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/140300:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/140657:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141319:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141322:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141322:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141322:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141335:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141335:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141338:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141338:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141405:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141407:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141407:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141407:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141440:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141442:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141442:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141442:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141528:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141530:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141530:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141530:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141639:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141806:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0617/141806:WARNING:http_cache_transaction.cc(1011)] Unable to create cache entry
+[0618/212753:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/212812:INFO:CONSOLE(664)] "showCards 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "showPlayerCards 0.003 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "showWinners 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "updatePlayerChips 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "start Tue Jun 18 2013 21:28:12 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "end Tue Jun 18 2013 21:28:12 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "duration 52 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "wait_delay 4500 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/212812:INFO:CONSOLE(664)] "delay 4448 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213427:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/213428:ERROR:cache_util_win.cc(43)] Unable to move the cache: 5
+[0618/213428:ERROR:backend_impl.cc(137)] Unable to move cache folder k:/cef_cache to k:/old_cef_cache_000
+[0618/213428:ERROR:backend_impl.cc(224)] Unable to create cache
+[0618/213558:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/213625:INFO:CONSOLE(664)] "showCards 0.002 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "showPlayerCards 0.006 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "showWinners 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "updatePlayerChips 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "start Tue Jun 18 2013 21:36:25 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "end Tue Jun 18 2013 21:36:25 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "duration 98 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "wait_delay 4500 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213625:INFO:CONSOLE(664)] "delay 4402 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0618/213726:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213726:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213726:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213726:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213726:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213726:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213741:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213741:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213741:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213741:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213741:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213741:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213756:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213756:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213756:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213756:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213756:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213756:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213811:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213811:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213811:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213811:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213811:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213811:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213826:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213826:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213826:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213826:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213826:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213826:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213841:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213841:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213841:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213841:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213841:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213841:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213856:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213856:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213856:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213856:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213856:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213856:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213906:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213906:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213906:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213906:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213906:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213906:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213911:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213911:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213911:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213911:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213911:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213911:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213916:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213916:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213916:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213916:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213916:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213916:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213921:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213921:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213921:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213921:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213921:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213921:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213926:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213926:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213926:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213926:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213926:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213926:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213931:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213931:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213931:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213931:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213931:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213931:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213936:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213936:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213936:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213936:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213936:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213936:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213945:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213946:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213946:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213946:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213946:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213946:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213951:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213951:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213951:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213951:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213951:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213951:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213956:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213956:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213956:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213956:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/213956:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214001:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214001:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214001:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214001:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214001:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214001:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214006:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214006:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214006:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214006:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214006:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214006:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214011:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214011:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214011:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214011:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214011:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214011:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214016:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214016:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214016:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214016:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214016:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214016:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214025:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214025:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214025:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214025:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214025:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/214025:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0618/215322:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/215920:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/220015:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/220157:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/220253:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/220342:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/220408:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/220437:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/221628:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/222119:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/223038:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/223433:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/230026:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/231339:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/232559:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/234105:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0618/234251:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0619/000152:ERROR:proxy_service_factory.cc(88)] Cannot use V8 Proxy resolver in single process mode.
+[0619/000347:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000347:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000347:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000347:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000347:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000347:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000426:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000426:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000426:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000426:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000426:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000426:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000520:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000520:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000520:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000520:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000520:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000520:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000607:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000607:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000607:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000607:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000607:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000607:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000859:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000859:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000859:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000859:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000859:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/000859:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/002144:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/002144:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/002144:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/002144:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/002144:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/002144:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/003447:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/003447:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/003447:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/003447:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/003447:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/003447:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/010320:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/010320:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/010320:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/010320:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/010320:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/010320:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/013658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/013658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/013658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/013658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/013658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/013658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014304:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014304:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014304:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014304:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014304:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014304:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014451:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014451:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014451:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014451:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014451:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014451:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014652:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014652:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014652:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014652:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014652:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/014652:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020004:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020004:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020004:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020004:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020004:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020004:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020950:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020950:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020950:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020950:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020950:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/020950:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021038:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021038:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021038:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021038:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021038:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021038:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021112:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021112:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021112:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021112:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021112:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021112:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021431:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021431:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021431:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021431:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021431:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021431:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021511:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021511:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021511:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021511:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021511:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021511:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021625:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021625:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021625:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021625:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021625:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021625:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021738:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021738:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021738:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021738:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021738:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021738:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021920:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021920:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021920:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021920:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021920:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021920:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021958:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021958:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021958:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021958:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021958:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/021958:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022113:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022113:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022113:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022113:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022113:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022113:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022222:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022222:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022222:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022222:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022222:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022222:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022250:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022250:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022250:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022250:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022250:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022250:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022613:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022613:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022613:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022613:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022613:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022613:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022656:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022656:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022656:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022656:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022656:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022656:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022842:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022842:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022842:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022842:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022842:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/022842:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023242:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023242:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023242:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023242:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023242:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023242:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023305:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023305:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023305:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023305:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023305:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023305:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023346:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023346:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023346:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023346:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023346:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/023346:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/144017:WARNING:dns_config_service_win.cc(622)] Failed to read DnsConfig.
+[0619/151235:ERROR:cache_util_win.cc(43)] Unable to move the cache: 5
+[0619/151235:ERROR:backend_impl.cc(137)] Unable to move cache folder k:/cef_cache to k:/old_cef_cache_000
+[0619/151235:ERROR:backend_impl.cc(224)] Unable to create cache
+[0619/151430:INFO:CONSOLE(664)] "showCards 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "showPlayerCards 0.003 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "showWinners 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "updatePlayerChips 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "start Wed Jun 19 2013 15:14:29 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "end Wed Jun 19 2013 15:14:29 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "duration 68 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "wait_delay 4500 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151430:INFO:CONSOLE(664)] "delay 4432 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151803:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151803:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/151803:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151818:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151818:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151818:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151818:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151818:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151818:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151833:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151833:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151833:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151833:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151833:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151833:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151848:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151848:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151848:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151848:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151848:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151848:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151903:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151903:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151903:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151903:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151903:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151903:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151918:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151918:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151918:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151919:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151919:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/151919:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152243:INFO:CONSOLE(664)] "showCards 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "showPlayerCards 0.003 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "showWinners 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "updatePlayerChips 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "start Wed Jun 19 2013 15:22:43 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "end Wed Jun 19 2013 15:22:43 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "duration 61 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "wait_delay 4500 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152243:INFO:CONSOLE(664)] "delay 4439 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152353:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152353:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152353:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152353:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152408:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152408:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152408:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152408:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152408:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152408:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/152453:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/152740:INFO:CONSOLE(664)] "showCards 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "showPlayerCards 0.005 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "showWinners 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "updatePlayerChips 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "start Wed Jun 19 2013 15:27:40 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "end Wed Jun 19 2013 15:27:40 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "duration 86 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "wait_delay 4500 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/152740:INFO:CONSOLE(664)] "delay 4414 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153141:ERROR:cache_util_win.cc(43)] Unable to move the cache: 5
+[0619/153141:ERROR:backend_impl.cc(137)] Unable to move cache folder k:/cef_cache to k:/old_cef_cache_000
+[0619/153141:ERROR:backend_impl.cc(224)] Unable to create cache
+[0619/153351:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0619/153437:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0619/153437:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0619/153437:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0619/153552:INFO:CONSOLE(664)] "showCards 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "showPlayerCards 0.003 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "showWinners 0.001 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "updatePlayerChips 0 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "start Wed Jun 19 2013 15:35:52 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "end Wed Jun 19 2013 15:35:52 GMT+0100 (Afr. centrale Ouest) ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "duration 92 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "wait_delay 4500 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153552:INFO:CONSOLE(664)] "delay 4408 ?", source: http://localhost:8080/poker/scripts/game_n/GameTable.js (664)
+[0619/153822:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0619/153831:ERROR:cache_util_win.cc(43)] Unable to move the cache: 5
+[0619/153831:ERROR:backend_impl.cc(137)] Unable to move cache folder k:/cef_cache to k:/old_cef_cache_000
+[0619/153831:ERROR:backend_impl.cc(224)] Unable to create cache
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154013:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154013:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154013:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154013:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154026:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154026:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154026:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154026:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154041:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154041:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154041:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154041:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:WARNING:content_browser_client.cc(358)] No browser info matching process id -1 and view id -2
+[0619/154042:INFO:CONSOLE(72)] "Uncaught TypeError: Cannot call method 'Play' of undefined", source: http://localhost:8080/poker/scripts/jBeep.js (72)
+[0619/162039:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162040:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162040:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162040:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162040:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162040:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162204:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162204:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162204:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162204:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162204:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162204:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162407:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162407:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162407:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162407:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162407:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162407:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162724:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162724:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162724:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162724:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162724:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/162724:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163547:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163547:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163547:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163547:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163547:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163547:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163621:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163622:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163622:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163622:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163622:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163622:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163810:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163810:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163810:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163810:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163810:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/163810:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164450:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164450:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164450:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164450:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164450:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164450:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164600:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164600:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164600:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164600:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164600:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164600:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164658:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164824:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164824:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164824:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164824:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164824:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/164824:ERROR:child_process_launcher.cc(326)] Failed to launch child process
+[0619/165039:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0619/165304:WARNING:backend_impl.cc(1946)] Destroying invalid entry.

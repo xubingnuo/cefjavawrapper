@@ -1,0 +1,35 @@
+﻿La génération a démarré 10/06/2013 06:08:44.
+     1>Projet "K:\javachromiumembedded\native\ide\vc2008\CefWrapper.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "CEFW\CefWrapper.unsuccessfulbuild".
+       ClCompile:
+         Toutes les sorties sont à jour.
+       ManifestResourceCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\java\lib\native\win32\CefWrapper.dll" /INCREMENTAL /NOLOGO /LIBPATH:K:\javachromiumembedded\native\cef_binary_2013\lib libcef.lib libcef_dll_wrapper.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"CEFW\CefWrapper.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\javachromiumembedded\java\lib\native\win32\CefWrapper.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\java\lib\native\win32\CefWrapper.lib" /MACHINE:X86 /DLL CEFW\CefWrapper.dll.embed.manifest.res
+         CEFW\CefBrowser_N.obj
+         CEFW\CefContext.obj
+         CEFW\CefFrame_N.obj
+         CEFW\CefV8Value_N.obj
+         CEFW\client_app.obj
+         CEFW\client_app_delegates.obj
+         CEFW\client_handler.obj
+         CEFW\client_renderer.obj
+         CEFW\SystemUtilities.obj
+         CEFW\SystemUtilities_win.obj
+            Création de la bibliothèque ..\..\..\java\lib\native\win32\CefWrapper.lib et de l'objet ..\..\..\java\lib\native\win32\CefWrapper.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"CEFW\CefWrapper.dll.embed.manifest" /manifest CEFW\CefWrapper.dll.intermediate.manifest
+         Toutes les sorties sont à jour.
+       LinkEmbedManifest:
+         Toutes les sorties sont à jour.
+         CefWrapper.vcxproj -> K:\javachromiumembedded\native\ide\vc2008\..\..\..\java\lib\native\win32\CefWrapper.dll
+       FinalizeBuildStatus:
+         Suppression du fichier "CEFW\CefWrapper.unsuccessfulbuild".
+         Mise à jour de l'horodatage "CEFW\CefWrapper.lastbuildstate".
+     1>Génération du projet "K:\javachromiumembedded\native\ide\vc2008\CefWrapper.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.70
